@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fake Name — Aerospace Engineering Portfolio</title>
+  <meta name="description" content="Portfolio of an Aerospace Engineering student at the University of Manchester blending analytical thinking with hands-on technical experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero" id="top">
+    <div class="hero__bg" aria-hidden="true"></div>
+
+    <nav class="topbar" aria-label="Primary">
+      <p class="topbar__location">
+        <span class="topbar__location-label">Based in</span>
+        <span class="topbar__location-value">Manchester, UK</span>
+      </p>
+
+      <p class="topbar__clock" aria-live="off">
+        <span class="topbar__clock-label">Local time</span>
+        <span class="topbar__clock-value" id="clock">00:00:00</span>
+      </p>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menuPanel">
+        <span class="menu-btn__icon" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span class="menu-btn__text">Menu</span>
+      </button>
+    </nav>
+
+    <div class="menu-panel" id="menuPanel" hidden>
+      <ul class="menu-panel__list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">What I Offer</a></li>
+        <li><a href="#process">How I Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="hero__inner">
+      <h1 class="hero__title">
+        <span class="hero__title-line">Fake</span>
+        <span class="hero__title-line">Name</span>
+      </h1>
+
+      <div class="hero__aside">
+        <p class="hero__services-label">• Services</p>
+        <ul class="hero__services">
+          <li>Engineering Design</li>
+          <li>CAD &amp; Simulation</li>
+          <li>Vehicle Maintenance</li>
+          <li>Technical Analysis</li>
+          <li>Project Management</li>
+        </ul>
+      </div>
+
+      <div class="hero__footer">
+        <p class="hero__lead">
+          An Aerospace Engineering student at the University of Manchester,
+          bridging analytical thinking with hands-on experience across retail,
+          catering and commercial transport.
+        </p>
+
+        <ul class="socials" aria-label="Social links">
+          <li><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.6 4.78 5.98V21h-4v-5.3c0-1.26-.02-2.9-1.9-2.9-1.9 0-2.2 1.4-2.2 2.8V21H9z"/></svg></a></li>
+          <li><a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg></a></li>
+          <li><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23C21.8 8.4 21.8 8.8 21.8 12s0 3.6-.07 4.85c-.05 1.17-.25 1.8-.41 2.23a3.8 3.8 0 0 1-.9 1.38 3.8 3.8 0 0 1-1.38.9c-.42.16-1.06.36-2.23.41-1.25.07-1.65.07-4.85.07s-3.6 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.8 3.8 0 0 1-1.38-.9 3.8 3.8 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.14 0-3.5 0-4.74.07-.9.04-1.39.19-1.71.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.13.32-.28.81-.32 1.71C3.4 8.5 3.4 8.86 3.4 12s0 3.5.07 4.74c.04.9.19 1.39.32 1.71.17.43.37.74.69 1.06.32.32.63.52 1.06.69.32.13.81.28 1.71.32 1.24.07 1.6.07 4.74.07s3.5 0 4.74-.07c.9-.04 1.39-.19 1.71-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.13-.32.28-.81.32-1.71.07-1.24.07-1.6.07-4.74s0-3.5-.07-4.74c-.04-.9-.19-1.39-.32-1.71a2.9 2.9 0 0 0-.69-1.06 2.9 2.9 0 0 0-1.06-.69c-.32-.13-.81-.28-1.71-.32C15.5 4 15.14 4 12 4zm0 3.06A4.94 4.94 0 1 1 12 17a4.94 4.94 0 0 1 0-9.88zm0 1.8a3.14 3.14 0 1 0 0 6.28 3.14 3.14 0 0 0 0-6.28zm5.14-2.6a1.16 1.16 0 1 1 0 2.32 1.16 1.16 0 0 1 0-2.32z"/></svg></a></li>
+          <li><a href="#" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1.4 2L12 13l7.6-6H4.4zM20 8.2l-7.4 5.85a1 1 0 0 1-1.2 0L4 8.2V17h16V8.2z"/></svg></a></li>
+        </ul>
+
+        <a class="btn btn--orange hero__cta" href="CV.pdf" download>
+          <span>Download CV</span>
+          <span class="btn__arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about" id="about">
+      <div class="about__head">
+        <span class="eyebrow eyebrow--orange">About me</span>
+      </div>
+
+      <p class="about__statement">
+        I turn complex engineering concepts into
+        <em class="hl-orange">practical, real-world solutions</em>
+        with
+        <em class="hl-grey">hands-on experience</em>
+        across automotive, hospitality and operations. I'm honest, reliable and
+        thrive in high-pressure environments where timekeeping and a positive
+        attitude matter.
+      </p>
+
+      <ul class="thumbstrip" aria-label="Gallery">
+        <li><img src="assets/thumb-1.svg" alt="" loading="lazy" /></li>
+        <li><img src="assets/thumb-2.svg" alt="" loading="lazy" /></li>
+        <li><img src="assets/thumb-3.svg" alt="" loading="lazy" /></li>
+        <li><img src="assets/thumb-4.svg" alt="" loading="lazy" /></li>
+        <li><img src="assets/thumb-5.svg" alt="" loading="lazy" /></li>
+      </ul>
+    </section>
+
+    <!-- ===================== WHAT I OFFER ===================== -->
+    <section class="offer" id="services">
+      <div class="offer__top">
+        <span class="offer__counter">02 <span>/ 05</span></span>
+        <a class="btn btn--dark" href="#experience">
+          <span>View all services</span>
+          <span class="btn__arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="offer__body">
+        <h2 class="offer__title">
+          <span class="offer__word offer__word--left">What</span>
+          <span class="offer__word offer__word--right">I&nbsp;Offer</span>
+        </h2>
+
+        <div class="offer__media">
+          <img class="offer__media-img offer__media-img--wide" src="assets/offer-1.svg" alt="" loading="lazy" />
+          <img class="offer__media-img offer__media-img--tall" src="assets/offer-2.svg" alt="" loading="lazy" />
+        </div>
+
+        <ul class="offer__list">
+          <li><span class="offer__num">01</span> Engineering Design &amp; Drafting</li>
+          <li><span class="offer__num">02</span> CAD Modelling &amp; Simulation</li>
+          <li><span class="offer__num">03</span> Vehicle Servicing &amp; Repair</li>
+          <li><span class="offer__num">04</span> Parts &amp; Inventory Management</li>
+          <li><span class="offer__num">05</span> Teamwork &amp; Customer Service</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== HOW I WORK ===================== -->
+    <section class="process" id="process">
+      <div class="process__head">
+        <div>
+          <span class="eyebrow eyebrow--orange">Work process</span>
+          <h2 class="process__title">How I work</h2>
+        </div>
+        <p class="process__intro">
+          A clear, methodical process designed to turn requirements into
+          reliable engineering outcomes — from concept to final delivery.
+        </p>
+      </div>
+
+      <ol class="process__grid">
+        <li class="process__card">
+          <span class="process__num">1.</span>
+          <div class="process__card-body">
+            <h3 class="process__card-title">Discovery</h3>
+            <p>I explore the brief, constraints and standards to fully understand the problem and what a perfect solution looks like.</p>
+          </div>
+        </li>
+        <li class="process__card process__card--active">
+          <span class="process__num">2.</span>
+          <div class="process__card-body">
+            <h3 class="process__card-title">Planning</h3>
+            <p>I analyse requirements to define a clear method, select the right tools and set realistic milestones.</p>
+          </div>
+        </li>
+        <li class="process__card">
+          <span class="process__num">3.</span>
+          <div class="process__card-body">
+            <h3 class="process__card-title">Production</h3>
+            <p>I build, test and iterate with precision, keeping safety and quality at the centre of every step.</p>
+          </div>
+        </li>
+        <li class="process__card">
+          <span class="process__num">4.</span>
+          <div class="process__card-body">
+            <h3 class="process__card-title">Delivery</h3>
+            <p>I document, refine and hand over the final result, ready for real-world use and continuous improvement.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="experience" id="experience">
+      <span class="pill">My Experience</span>
+      <h2 class="experience__title">
+        <span class="experience__line">Turning Knowledge into</span>
+        <span class="experience__line">
+          <span class="hl-orange">Practical</span> <span class="hl-dark">Solutions</span>
+        </span>
+      </h2>
+
+      <div class="timeline-card">
+        <ul class="timeline">
+          <li class="timeline__item">
+            <div class="timeline__meta">
+              <h3 class="timeline__role">Shop Assistant — Spar Shop</h3>
+              <span class="timeline__dates">Nov 2014 — Sep 2015</span>
+            </div>
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__desc">Ran the tills and handled money, assisted customers, kept the shop clean and shelves stocked, and supported the owner with the morning paper round.</p>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__meta">
+              <h3 class="timeline__role">Kitchen Porter — Restaurant</h3>
+              <span class="timeline__dates">Aug 2014 — Dec 2014</span>
+            </div>
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__desc">Operated an industrial dish washer, kept the kitchen clean and tidy, and assisted the head chef with food preparation wherever required.</p>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__meta">
+              <h3 class="timeline__role">Parts Manager — Commercials</h3>
+              <span class="timeline__dates">Jun 2013 — Aug 2014</span>
+            </div>
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__desc">Managed warehouse stock levels and parts sourcing, handled customer sales and warranty issues, and recorded all parts in and out to protect margins.</p>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__meta">
+              <h3 class="timeline__role">Apprentice / Technician — Commercials</h3>
+              <span class="timeline__dates">Jun 2010 — Jun 2013</span>
+            </div>
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__desc">Learned from senior technicians, carried out routine servicing and road-safety inspections, and earned a Level 2 NVQ before promotion to full-time technician.</p>
+          </li>
+          <li class="timeline__item">
+            <div class="timeline__meta">
+              <h3 class="timeline__role">Kitchen Porter — Penventon Park Hotel</h3>
+              <span class="timeline__dates">May 2009</span>
+            </div>
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <p class="timeline__desc">Assisted the head chef and restaurant manager, handled cleaning and food prep, and supported housekeeping, reception and the functions department.</p>
+          </li>
+        </ul>
+
+        <a class="btn btn--dark btn--pill" href="#contact">
+          <span>Let's work together</span>
+          <span class="btn__arrow btn__arrow--orange" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===================== AWARDS / EDUCATION ===================== -->
+    <section class="awards" id="awards">
+      <span class="eyebrow eyebrow--orange awards__eyebrow">Awards</span>
+      <h2 class="awards__title">
+        <span class="awards__line awards__line--light">Awards</span>
+        <span class="awards__line awards__line--grad">Earned</span>
+      </h2>
+
+      <div class="awards__cta">
+        <a class="btn btn--orange" href="CV.pdf" download>
+          <span>View my awards</span>
+          <span class="btn__arrow btn__arrow--dark" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </a>
+      </div>
+
+      <div class="education">
+        <div class="education__row education__row--head">
+          <span>Institution</span>
+          <span>Qualification</span>
+          <span>Year</span>
+        </div>
+        <div class="education__row">
+          <span>University of Manchester</span>
+          <span>BEng / MEng Aerospace Engineering with Foundation Year</span>
+          <span>2015 — Present</span>
+        </div>
+        <div class="education__row">
+          <span>Access to HE</span>
+          <span>Level 3 Diploma — Engineering, Physics &amp; Maths (Distinctions)</span>
+          <span>2014 — 2015</span>
+        </div>
+        <div class="education__row">
+          <span>Commercials</span>
+          <span>Level 2 NVQ — HGV Vehicle Maintenance &amp; Repair</span>
+          <span>2012</span>
+        </div>
+        <div class="education__row">
+          <span>Redruth School</span>
+          <span>GCSEs — Maths, Additional Science, Business, Engineering</span>
+          <span>2010</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== CONTACT / FOOTER ===================== -->
+  <footer class="contact" id="contact">
+    <div class="contact__inner">
+      <span class="eyebrow eyebrow--orange">Get in touch</span>
+      <h2 class="contact__title">
+        Let's build<br /><span class="hl-orange">something</span> real
+      </h2>
+
+      <div class="contact__grid">
+        <div class="contact__col">
+          <h3 class="contact__label">Contact</h3>
+          <ul class="contact__list">
+            <li><a href="tel:+440000000000">Phone: — add number</a></li>
+            <li><a href="mailto:email@example.com">email@example.com</a></li>
+            <li>Address: — add address</li>
+          </ul>
+        </div>
+        <div class="contact__col">
+          <h3 class="contact__label">References</h3>
+          <p class="contact__muted">Two references available on request — from the shop and the commercial garage.</p>
+        </div>
+        <div class="contact__col">
+          <h3 class="contact__label">Interests</h3>
+          <p class="contact__muted">Guitar, martial arts, kayaking and badminton, plus the UK Space industry and progress in renewable energy and bio-technology.</p>
+        </div>
+      </div>
+
+      <p class="contact__note">Deputy Chair — Residents Association, University of Manchester Student Residences.</p>
+
+      <div class="contact__bottom">
+        <span>© <span id="year">2026</span> Fake Name</span>
+        <a class="contact__top" href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

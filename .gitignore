@@ -1,0 +1,20 @@
+# Sensitive / local files
+tokens.txt
+*.token
+*.tokens
+.env
+.env.*
+referencia.webp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
